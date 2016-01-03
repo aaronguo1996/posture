@@ -1,0 +1,74 @@
+﻿生成启动时间为 2015/9/17 21:41:01。
+     1>项目“C:\Users\Aaron\documents\visual studio 2013\Projects\posture\posture\posture.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.5.0\5.5\msvc2013\include /I.\GeneratedFiles\Release /IC:\Qt\Qt5.5.0\5.5\msvc2013\include\QtCore /IC:\Qt\Qt5.5.0\5.5\msvc2013\include\QtGui /IC:\Qt\Qt5.5.0\5.5\msvc2013\include\QtOpenGL /IC:\Qt\Qt5.5.0\5.5\msvc2013\include\QtWidgets /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_OPENGL_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt uploadwidget.cpp
+         uploadwidget.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Aaron\documents\visual studio 2013\Projects\posture\Win32\Release\\posture.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.5.0\5.5\msvc2013\lib qtmain.lib Qt5Core.lib Qt5Gui.lib Qt5OpenGL.lib opengl32.lib glu32.lib Qt5Widgets.lib glew32.lib Ws2_32.lib libpxc.lib libpxcutils.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:\Users\Aaron\documents\visual studio 2013\Projects\posture\Win32\Release\posture.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Aaron\documents\visual studio 2013\Projects\posture\Win32\Release\posture.lib" /MACHINE:X86 /SAFESEH Release\Camera.obj
+         Release\CaptureManager.obj
+         Release\FrameController.obj
+         Release\HandsController.obj
+         Release\HandsModel.obj
+         Release\OpenGLView.obj
+         Release\timer.obj
+         Release\Tree.obj
+         Release\choosetagwindow.obj
+         Release\commentwindow.obj
+         Release\displaywidget.obj
+         Release\displaywindow.obj
+         Release\CameraDisplay.obj
+         Release\Card.obj
+         Release\CBMPLoader.obj
+         Release\image.obj
+         Release\log.obj
+         Release\ms3d.obj
+         Release\SkyBox.obj
+         Release\Terrain.obj
+         Release\Vector3.obj
+         Release\friendswindow.obj
+         Release\moc_choosetagwindow.obj
+         Release\moc_commentwindow.obj
+         Release\moc_displaywindow.obj
+         Release\moc_friendswindow.obj
+         Release\moc_logwindow.obj
+         Release\moc_posture.obj
+         Release\moc_posturelistwindow.obj
+         Release\moc_posturewindow.obj
+         Release\moc_profileeditwindow.obj
+         Release\moc_profilemodewindow.obj
+         Release\moc_profilewindow.obj
+         Release\moc_searchwindow.obj
+         Release\moc_uploadinfowindow.obj
+         Release\moc_uploadmodewindow.obj
+         Release\moc_uploadwidget.obj
+         Release\moc_uploadwindow.obj
+         Release\moc_welcomewindow.obj
+         Release\qrc_posture.obj
+         Release\logwindow.obj
+         Release\main.obj
+         Release\json_reader.obj
+         Release\json_value.obj
+         Release\json_writer.obj
+         Release\PageManager.obj
+         Release\SourceManager.obj
+         Release\TransmitionManager.obj
+         Release\UserManager.obj
+         Release\posture.obj
+         Release\posturelistwindow.obj
+         Release\posturewindow.obj
+         Release\profileeditwindow.obj
+         Release\profilemodewindow.obj
+         Release\profilewindow.obj
+         Release\searchwindow.obj
+         Release\uploadinfowindow.obj
+         Release\uploadmodewindow.obj
+         Release\uploadwidget.obj
+         Release\uploadwindow.obj
+         Release\welcomewindow.obj
+     1>LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+         posture.vcxproj -> C:\Users\Aaron\documents\visual studio 2013\Projects\posture\Win32\Release\posture.exe
+     1>已完成生成项目“C:\Users\Aaron\documents\visual studio 2013\Projects\posture\posture\posture.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.76

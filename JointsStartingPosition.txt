@@ -1,0 +1,120 @@
+L_Root 
+Starting position: 0.173161 0.4974 -0.69762
+Starting rotation: 0 -0 0
+L_ThumbRoot L_Root
+Starting position: -8.30334 10.222 2.90634
+Starting rotation: 35.9657 32.3039 180
+L_IndexRoot L_Root
+Starting position: -3.82466 15.7071 -0.666846
+Starting rotation: -93.5552 88.8788 0
+L_MiddleRoot L_Root
+Starting position: 0.543827 17.45 -0.323886
+Starting rotation: -86.8425 89.682 0
+L_FourthRoot L_Root
+Starting position: 3.92558 16.831 0.0685267
+Starting rotation: -73.8968 88.9992 0
+L_LittleRoot L_Root
+Starting position: 6.92512 15.1452 0.120883
+Starting rotation: -50.3802 64.3266 0
+L_ThumbMiddle L_ThumbRoot
+Starting position: 0 0 3.76774
+Starting rotation: -0.924407 3.5335 180
+L_ThumbTip L_ThumbMiddle
+Starting position: 0 0 3.35466
+Starting rotation: 0 -0 0
+L_IndexMiddle1 L_IndexRoot
+Starting position: 0 0 5.02502
+Starting rotation: -0.950049 0.0800389 0
+L_IndexMiddle2 L_IndexMiddle1
+Starting position: 0 0 4.54639
+Starting rotation: -1.86572 1.67473 0
+L_IndexTip L_IndexMiddle2
+Starting position: 0 0 3.10452
+Starting rotation: 0 -0 0
+L_MiddleMiddle1 L_MiddleRoot
+Starting position: 0 0 5.53274
+Starting rotation: -4.17936 0.188202 0
+L_MiddleMiddle2 L_MiddleMiddle1
+Starting position: 0 0 4.40941
+Starting rotation: 1.23049 1.5404 0
+L_MiddleTip L_MiddleMiddle2
+Starting position: 0 0 3.71706
+Starting rotation: 0 -0 0
+L_FourthMiddle1 L_FourthRoot
+Starting position: 0 0 4.94121
+Starting rotation: 3.4685 1.62773 0
+L_FourthMiddle2 L_FourthMiddle1
+Starting position: 0 0 4.18632
+Starting rotation: -10.2528 13.9903 0
+L_FourthTip L_FourthMiddle2
+Starting position: 0 0 2.99986
+Starting rotation: 0 -0 0
+L_LittleMiddle1 L_LittleRoot
+Starting position: 0 0 4.38265
+Starting rotation: -7.38539 6.56966 0
+L_LittleMiddle2 L_LittleMiddle1
+Starting position: 0 0 3.5682
+Starting rotation: 0.87934 1.77241 0
+L_LittleTip L_LittleMiddle2
+Starting position: 0 0 2.65197
+Starting rotation: 0 -0 0
+R_Root 
+Starting position: -0.630304 0.0974007 -0.69762
+Starting rotation: 0 -0 0
+R_ThumbRoot R_Root
+Starting position: 8.30334 10.222 2.90634
+Starting rotation: -36.0087 32.2598 0
+R_IndexRoot R_Root
+Starting position: 3.82466 15.7071 -0.666846
+Starting rotation: -83.3716 89.5432 0
+R_MiddleRoot R_Root
+Starting position: -0.543827 17.45 -0.323886
+Starting rotation: -87.4567 89.6206 0
+R_FourthRoot R_Root
+Starting position: -3.92558 16.831 0.0685267
+Starting rotation: 73.8608 89.0406 180
+R_LittleRoot R_Root
+Starting position: -6.92511 15.1452 0.120883
+Starting rotation: 50.3374 64.3674 180
+R_ThumbMiddle R_ThumbRoot
+Starting position: 0 0 3.76776
+Starting rotation: 0.789384 3.50636 180
+R_ThumbTip R_ThumbMiddle
+Starting position: 0 0 3.3543
+Starting rotation: 0 -0 0
+R_IndexMiddle1 R_IndexRoot
+Starting position: 0 0 6.25536
+Starting rotation: 0.393308 0.113597 0
+R_IndexMiddle2 R_IndexMiddle1
+Starting position: 0 0 4.3899
+Starting rotation: -6.89834 6.35385 0
+R_IndexTip R_IndexMiddle2
+Starting position: 0 0 3.01884
+Starting rotation: 0 -0 0
+R_MiddleMiddle1 R_MiddleRoot
+Starting position: 0 0 5.60045
+Starting rotation: 0.635945 0.186436 0
+R_MiddleMiddle2 R_MiddleMiddle1
+Starting position: 0 0 4.69776
+Starting rotation: -3.26411 4.89091 0
+R_MiddleTip R_MiddleMiddle2
+Starting position: 0 0 3.25088
+Starting rotation: 0 -0 0
+R_FourthMiddle1 R_FourthRoot
+Starting position: 0 0 4.94159
+Starting rotation: 2.51035 0.495001 0
+R_FourthMiddle2 R_FourthMiddle1
+Starting position: 0 0 4.186
+Starting rotation: 13.1423 17.7776 0
+R_FourthTip R_FourthMiddle2
+Starting position: 0 0 3.0002
+Starting rotation: 0 -0 0
+R_LittleMiddle1 R_LittleRoot
+Starting position: 0 0 4.38245
+Starting rotation: 7.42404 6.54738 0
+R_LittleMiddle2 R_LittleMiddle1
+Starting position: 0 0 3.56821
+Starting rotation: -0.880379 1.7719 0
+R_LittleTip R_LittleMiddle2
+Starting position: 0 0 2.65197
+Starting rotation: 0 -0 0

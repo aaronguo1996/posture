@@ -1,0 +1,46 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>Resources/comment.png</file>
+        <file>Resources/delete.png</file>
+        <file>Resources/detail.png</file>
+        <file>Resources/email.png</file>
+        <file>Resources/forward.png</file>
+        <file>Resources/friends.png</file>
+        <file>Resources/friends0.png</file>
+        <file>Resources/home0.png</file>
+        <file>Resources/icon.bmp</file>
+        <file>Resources/icon.png</file>
+        <file>Resources/like.png</file>
+        <file>Resources/liked.png</file>
+        <file>Resources/logicon.png</file>
+        <file>Resources/person.png</file>
+        <file>Resources/posture.png</file>
+        <file>Resources/profile0.png</file>
+        <file>Resources/profileMode.png</file>
+        <file>Resources/pwd.png</file>
+        <file>Resources/pwdc.png</file>
+        <file>Resources/refresh0.png</file>
+        <file>Resources/search0.png</file>
+        <file>Resources/searchbutton.png</file>
+        <file>Resources/upload0.png</file>
+        <file>Resources/username.png</file>
+        <file>Resources/whiteicon.png</file>
+        <file>Resources/1.jpg</file>
+        <file>Resources/2.jpg</file>
+        <file>Resources/3.jpg</file>
+        <file>Resources/4.jpg</file>
+        <file>Resources/5.jpg</file>
+        <file>Resources/6.jpg</file>
+        <file>Resources/7.jpg</file>
+        <file>Resources/8.jpg</file>
+        <file>Resources/story.jpg</file>
+        <file>Resources/card.jpg</file>
+        <file>Resources/dance.jpg</file>
+        <file>Resources/fairy.jpg</file>
+        <file>Resources/game.jpg</file>
+        <file>Resources/magic.jpg</file>
+        <file>Resources/martial.jpg</file>
+        <file>Resources/pencil.jpg</file>
+        <file>Resources/default.jpg</file>
+    </qresource>
+</RCC>

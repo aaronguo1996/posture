@@ -1,0 +1,112 @@
+﻿生成启动时间为 2015/9/17 21:46:25。
+     1>项目“C:\Users\Aaron\documents\visual studio 2013\Projects\posture\posture\posture.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.5.0\5.5\msvc2013\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.5.0\5.5\msvc2013\include\QtCore /IC:\Qt\Qt5.5.0\5.5\msvc2013\include\QtGui /IC:\Qt\Qt5.5.0\5.5\msvc2013\include\QtOpenGL /IC:\Qt\Qt5.5.0\5.5\msvc2013\include\QtWidgets /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_OPENGL_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\Debug\moc_choosetagwindow.cpp GeneratedFiles\Debug\moc_commentwindow.cpp GeneratedFiles\Debug\moc_displaywindow.cpp GeneratedFiles\Debug\moc_friendswindow.cpp GeneratedFiles\Debug\moc_logwindow.cpp GeneratedFiles\Debug\moc_posture.cpp GeneratedFiles\Debug\moc_posturelistwindow.cpp GeneratedFiles\Debug\moc_posturewindow.cpp GeneratedFiles\Debug\moc_profileeditwindow.cpp GeneratedFiles\Debug\moc_profilemodewindow.cpp GeneratedFiles\Debug\moc_profilewindow.cpp GeneratedFiles\Debug\moc_searchwindow.cpp GeneratedFiles\Debug\moc_uploadinfowindow.cpp GeneratedFiles\Debug\moc_uploadmodewindow.cpp GeneratedFiles\Debug\moc_uploadwindow.cpp GeneratedFiles\Debug\moc_welcomewindow.cpp choosetagwindow.cpp commentwindow.cpp displaywidget.cpp displaywindow.cpp friendswindow.cpp logwindow.cpp main.cpp posture.cpp posturelistwindow.cpp posturewindow.cpp profileeditwindow.cpp profilemodewindow.cpp profilewindow.cpp searchwindow.cpp uploadinfowindow.cpp uploadmodewindow.cpp uploadwidget.cpp uploadwindow.cpp welcomewindow.cpp
+         moc_choosetagwindow.cpp
+         moc_commentwindow.cpp
+         moc_displaywindow.cpp
+         moc_friendswindow.cpp
+         moc_logwindow.cpp
+         moc_posture.cpp
+         moc_posturelistwindow.cpp
+         moc_posturewindow.cpp
+         moc_profileeditwindow.cpp
+         moc_profilemodewindow.cpp
+         moc_profilewindow.cpp
+         moc_searchwindow.cpp
+         moc_uploadinfowindow.cpp
+         moc_uploadmodewindow.cpp
+         moc_uploadwindow.cpp
+         moc_welcomewindow.cpp
+         choosetagwindow.cpp
+         commentwindow.cpp
+         displaywidget.cpp
+         displaywindow.cpp
+         正在生成代码...
+         正在编译...
+         friendswindow.cpp
+         logwindow.cpp
+         main.cpp
+         posture.cpp
+         posturelistwindow.cpp
+         posturewindow.cpp
+         profileeditwindow.cpp
+         profilemodewindow.cpp
+         profilewindow.cpp
+         searchwindow.cpp
+         uploadinfowindow.cpp
+         uploadmodewindow.cpp
+         uploadwidget.cpp
+         uploadwindow.cpp
+         welcomewindow.cpp
+         正在生成代码...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.5.0\5.5\msvc2013\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.5.0\5.5\msvc2013\include\QtCore /IC:\Qt\Qt5.5.0\5.5\msvc2013\include\QtGui /IC:\Qt\Qt5.5.0\5.5\msvc2013\include\QtOpenGL /IC:\Qt\Qt5.5.0\5.5\msvc2013\include\QtWidgets /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_OPENGL_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_posture.cpp
+         qrc_posture.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Aaron\documents\visual studio 2013\Projects\posture\Win32\Debug\\posture.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.5.0\5.5\msvc2013\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5OpenGLd.lib opengl32.lib glu32.lib Qt5Widgetsd.lib Ws2_32.lib freeglut.lib glew32.lib glaux.lib libpxc_d.lib libpxcutils_d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Aaron\documents\visual studio 2013\Projects\posture\Win32\Debug\posture.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Aaron\documents\visual studio 2013\Projects\posture\Win32\Debug\posture.lib" /MACHINE:X86 /SAFESEH Debug\Camera.obj
+         Debug\CaptureManager.obj
+         Debug\FrameController.obj
+         Debug\HandsController.obj
+         Debug\HandsModel.obj
+         Debug\OpenGLView.obj
+         Debug\timer.obj
+         Debug\Tree.obj
+         Debug\choosetagwindow.obj
+         Debug\commentwindow.obj
+         Debug\displaywidget.obj
+         Debug\displaywindow.obj
+         Debug\CameraDisplay.obj
+         Debug\Card.obj
+         Debug\CBMPLoader.obj
+         Debug\image.obj
+         Debug\log.obj
+         Debug\ms3d.obj
+         Debug\SkyBox.obj
+         Debug\Terrain.obj
+         Debug\Vector3.obj
+         Debug\friendswindow.obj
+         Debug\moc_choosetagwindow.obj
+         Debug\moc_commentwindow.obj
+         Debug\moc_displaywindow.obj
+         Debug\moc_friendswindow.obj
+         Debug\moc_logwindow.obj
+         Debug\moc_posture.obj
+         Debug\moc_posturelistwindow.obj
+         Debug\moc_posturewindow.obj
+         Debug\moc_profileeditwindow.obj
+         Debug\moc_profilemodewindow.obj
+         Debug\moc_profilewindow.obj
+         Debug\moc_searchwindow.obj
+         Debug\moc_uploadinfowindow.obj
+         Debug\moc_uploadmodewindow.obj
+         Debug\moc_uploadwidget.obj
+         Debug\moc_uploadwindow.obj
+         Debug\moc_welcomewindow.obj
+         Debug\qrc_posture.obj
+         Debug\logwindow.obj
+         Debug\main.obj
+         Debug\json_reader.obj
+         Debug\json_value.obj
+         Debug\json_writer.obj
+         Debug\PageManager.obj
+         Debug\SourceManager.obj
+         Debug\TransmitionManager.obj
+         Debug\UserManager.obj
+         Debug\posture.obj
+         Debug\posturelistwindow.obj
+         Debug\posturewindow.obj
+         Debug\profileeditwindow.obj
+         Debug\profilemodewindow.obj
+         Debug\profilewindow.obj
+         Debug\searchwindow.obj
+         Debug\uploadinfowindow.obj
+         Debug\uploadmodewindow.obj
+         Debug\uploadwidget.obj
+         Debug\uploadwindow.obj
+         Debug\welcomewindow.obj
+         posture.vcxproj -> C:\Users\Aaron\documents\visual studio 2013\Projects\posture\Win32\Debug\posture.exe
+     1>已完成生成项目“C:\Users\Aaron\documents\visual studio 2013\Projects\posture\posture\posture.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:46.94

@@ -1,0 +1,468 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Source Files\MANAGER">
+      <UniqueIdentifier>{4db37944-528e-4b00-bc29-9df25ddd794a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MANAGER\json">
+      <UniqueIdentifier>{7468078c-6047-46ac-b682-cfd1d363a3a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\display">
+      <UniqueIdentifier>{97cd62df-8eea-4340-b20d-c478f5743d4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\capture">
+      <UniqueIdentifier>{3137710f-aba4-4f80-b7de-2a0098e692eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{a02fadbe-ca38-4a03-90ff-7ac2a2273494}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{dbe3852b-a2d7-4999-8b59-c4e09965d539}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="posture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="commentwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="displaywidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="displaywindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="friendswindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="logwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="posturelistwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="posturewindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="profileeditwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="profilemodewindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="profilewindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="searchwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="uploadinfowindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="uploadmodewindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="uploadwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="welcomewindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MANAGER\json\json_reader.cpp">
+      <Filter>Source Files\MANAGER\json</Filter>
+    </ClCompile>
+    <ClCompile Include="MANAGER\json\json_value.cpp">
+      <Filter>Source Files\MANAGER\json</Filter>
+    </ClCompile>
+    <ClCompile Include="MANAGER\json\json_writer.cpp">
+      <Filter>Source Files\MANAGER\json</Filter>
+    </ClCompile>
+    <ClCompile Include="MANAGER\PageManager.cpp">
+      <Filter>Source Files\MANAGER</Filter>
+    </ClCompile>
+    <ClCompile Include="MANAGER\SourceManager.cpp">
+      <Filter>Source Files\MANAGER</Filter>
+    </ClCompile>
+    <ClCompile Include="MANAGER\TransmitionManager.cpp">
+      <Filter>Source Files\MANAGER</Filter>
+    </ClCompile>
+    <ClCompile Include="MANAGER\UserManager.cpp">
+      <Filter>Source Files\MANAGER</Filter>
+    </ClCompile>
+    <ClCompile Include="display\image.cpp">
+      <Filter>Source Files\display</Filter>
+    </ClCompile>
+    <ClCompile Include="display\log.cpp">
+      <Filter>Source Files\display</Filter>
+    </ClCompile>
+    <ClCompile Include="display\ms3d.cpp">
+      <Filter>Source Files\display</Filter>
+    </ClCompile>
+    <ClCompile Include="capture\Camera.cpp">
+      <Filter>Source Files\capture</Filter>
+    </ClCompile>
+    <ClCompile Include="capture\CaptureManager.cpp">
+      <Filter>Source Files\capture</Filter>
+    </ClCompile>
+    <ClCompile Include="capture\FrameController.cpp">
+      <Filter>Source Files\capture</Filter>
+    </ClCompile>
+    <ClCompile Include="capture\HandsController.cpp">
+      <Filter>Source Files\capture</Filter>
+    </ClCompile>
+    <ClCompile Include="capture\HandsModel.cpp">
+      <Filter>Source Files\capture</Filter>
+    </ClCompile>
+    <ClCompile Include="capture\OpenGLView.cpp">
+      <Filter>Source Files\capture</Filter>
+    </ClCompile>
+    <ClCompile Include="capture\timer.cpp">
+      <Filter>Source Files\capture</Filter>
+    </ClCompile>
+    <ClCompile Include="capture\Tree.cpp">
+      <Filter>Source Files\capture</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_commentwindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_displaywindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_friendswindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_logwindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_posture.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_posturelistwindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_posturewindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_profileeditwindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_profilemodewindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_profilewindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_searchwindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_uploadinfowindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_uploadmodewindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_uploadwidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_welcomewindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="uploadwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="choosetagwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="display\Card.cpp">
+      <Filter>Source Files\display</Filter>
+    </ClCompile>
+    <ClCompile Include="display\CBMPLoader.cpp">
+      <Filter>Source Files\display</Filter>
+    </ClCompile>
+    <ClCompile Include="display\SkyBox.cpp">
+      <Filter>Source Files\display</Filter>
+    </ClCompile>
+    <ClCompile Include="display\Terrain.cpp">
+      <Filter>Source Files\display</Filter>
+    </ClCompile>
+    <ClCompile Include="display\Vector3.cpp">
+      <Filter>Source Files\display</Filter>
+    </ClCompile>
+    <ClCompile Include="display\CameraDisplay.cpp">
+      <Filter>Source Files\display</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_choosetagwindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_uploadwindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_posture.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="posture.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="posture.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="posture.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="commentwindow.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="displaywindow.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="friendswindow.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="logwindow.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="posturelistwindow.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="posturewindow.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="profileeditwindow.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="profilemodewindow.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="profilewindow.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="searchwindow.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="uploadinfowindow.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="uploadmodewindow.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="uploadwidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="welcomewindow.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="uploadwindow.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="choosetagwindow.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="displaywidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="globalDefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MANAGER\json\autolink.h">
+      <Filter>Source Files\MANAGER\json</Filter>
+    </ClInclude>
+    <ClInclude Include="MANAGER\json\config.h">
+      <Filter>Source Files\MANAGER\json</Filter>
+    </ClInclude>
+    <ClInclude Include="MANAGER\json\features.h">
+      <Filter>Source Files\MANAGER\json</Filter>
+    </ClInclude>
+    <ClInclude Include="MANAGER\json\forwards.h">
+      <Filter>Source Files\MANAGER\json</Filter>
+    </ClInclude>
+    <ClInclude Include="MANAGER\json\json.h">
+      <Filter>Source Files\MANAGER\json</Filter>
+    </ClInclude>
+    <ClInclude Include="MANAGER\json\json_batchallocator.h">
+      <Filter>Source Files\MANAGER\json</Filter>
+    </ClInclude>
+    <ClInclude Include="MANAGER\json\reader.h">
+      <Filter>Source Files\MANAGER\json</Filter>
+    </ClInclude>
+    <ClInclude Include="MANAGER\json\value.h">
+      <Filter>Source Files\MANAGER\json</Filter>
+    </ClInclude>
+    <ClInclude Include="MANAGER\json\writer.h">
+      <Filter>Source Files\MANAGER\json</Filter>
+    </ClInclude>
+    <ClInclude Include="MANAGER\ModelVideo.h">
+      <Filter>Source Files\MANAGER</Filter>
+    </ClInclude>
+    <ClInclude Include="MANAGER\PageManager.h">
+      <Filter>Source Files\MANAGER</Filter>
+    </ClInclude>
+    <ClInclude Include="MANAGER\SourceManager.h">
+      <Filter>Source Files\MANAGER</Filter>
+    </ClInclude>
+    <ClInclude Include="MANAGER\TransmitionManager.h">
+      <Filter>Source Files\MANAGER</Filter>
+    </ClInclude>
+    <ClInclude Include="MANAGER\UserManager.h">
+      <Filter>Source Files\MANAGER</Filter>
+    </ClInclude>
+    <ClInclude Include="MANAGER\UserPro.h">
+      <Filter>Source Files\MANAGER</Filter>
+    </ClInclude>
+    <ClInclude Include="display\image.h">
+      <Filter>Source Files\display</Filter>
+    </ClInclude>
+    <ClInclude Include="display\log.h">
+      <Filter>Source Files\display</Filter>
+    </ClInclude>
+    <ClInclude Include="display\matrix.h">
+      <Filter>Source Files\display</Filter>
+    </ClInclude>
+    <ClInclude Include="display\model.h">
+      <Filter>Source Files\display</Filter>
+    </ClInclude>
+    <ClInclude Include="display\ms3d.h">
+      <Filter>Source Files\display</Filter>
+    </ClInclude>
+    <ClInclude Include="display\quaternion.h">
+      <Filter>Source Files\display</Filter>
+    </ClInclude>
+    <ClInclude Include="display\resource.h">
+      <Filter>Source Files\display</Filter>
+    </ClInclude>
+    <ClInclude Include="display\timer.h">
+      <Filter>Source Files\display</Filter>
+    </ClInclude>
+    <ClInclude Include="display\vector.h">
+      <Filter>Source Files\display</Filter>
+    </ClInclude>
+    <ClInclude Include="capture\Camera.h">
+      <Filter>Source Files\capture</Filter>
+    </ClInclude>
+    <ClInclude Include="capture\CaptureDataStructure.h">
+      <Filter>Source Files\capture</Filter>
+    </ClInclude>
+    <ClInclude Include="capture\CaptureManager.h">
+      <Filter>Source Files\capture</Filter>
+    </ClInclude>
+    <ClInclude Include="capture\CDefs.h">
+      <Filter>Source Files\capture</Filter>
+    </ClInclude>
+    <ClInclude Include="capture\FrameController.h">
+      <Filter>Source Files\capture</Filter>
+    </ClInclude>
+    <ClInclude Include="capture\HandsController.h">
+      <Filter>Source Files\capture</Filter>
+    </ClInclude>
+    <ClInclude Include="capture\HandsModel.h">
+      <Filter>Source Files\capture</Filter>
+    </ClInclude>
+    <ClInclude Include="capture\IView.h">
+      <Filter>Source Files\capture</Filter>
+    </ClInclude>
+    <ClInclude Include="capture\OpenGLView.h">
+      <Filter>Source Files\capture</Filter>
+    </ClInclude>
+    <ClInclude Include="capture\Texture.hpp">
+      <Filter>Source Files\capture</Filter>
+    </ClInclude>
+    <ClInclude Include="capture\timer.h">
+      <Filter>Source Files\capture</Filter>
+    </ClInclude>
+    <ClInclude Include="capture\Tree.h">
+      <Filter>Source Files\capture</Filter>
+    </ClInclude>
+    <ClInclude Include="display\Card.h">
+      <Filter>Source Files\display</Filter>
+    </ClInclude>
+    <ClInclude Include="display\CBMPLoader.h">
+      <Filter>Source Files\display</Filter>
+    </ClInclude>
+    <ClInclude Include="display\SkyBox.h">
+      <Filter>Source Files\display</Filter>
+    </ClInclude>
+    <ClInclude Include="display\stdafx.h">
+      <Filter>Source Files\display</Filter>
+    </ClInclude>
+    <ClInclude Include="display\Terrain.h">
+      <Filter>Source Files\display</Filter>
+    </ClInclude>
+    <ClInclude Include="display\Vector3.h">
+      <Filter>Source Files\display</Filter>
+    </ClInclude>
+    <ClInclude Include="display\math.h">
+      <Filter>Source Files\display</Filter>
+    </ClInclude>
+    <ClInclude Include="display\CameraDisplay.h">
+      <Filter>Source Files\display</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_posture.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="capture\object_tracker.h">
+      <Filter>Source Files\capture</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MANAGER\json\json_internalarray.inl">
+      <Filter>Source Files\MANAGER\json</Filter>
+    </None>
+    <None Include="MANAGER\json\json_internalmap.inl">
+      <Filter>Source Files\MANAGER\json</Filter>
+    </None>
+    <None Include="MANAGER\json\json_valueiterator.inl">
+      <Filter>Source Files\MANAGER\json</Filter>
+    </None>
+    <None Include="MANAGER\json\sconscript">
+      <Filter>Source Files\MANAGER\json</Filter>
+    </None>
+    <None Include="display\matrix.inl">
+      <Filter>Source Files\display</Filter>
+    </None>
+    <None Include="display\quaternion.inl">
+      <Filter>Source Files\display</Filter>
+    </None>
+    <None Include="stylesheet.css">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="display\vector.inl">
+      <Filter>Source Files\display</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="display\card_info.txt">
+      <Filter>Source Files\display</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

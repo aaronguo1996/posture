@@ -1,0 +1,803 @@
+QWidget#main
+{
+    background-color:#293047;
+}
+
+QWidget#logWindow 
+{
+    background-color:#222222;
+    /*max-height:900px;
+    min-height:900px;
+    max-width:800px;
+    min-width:800px;*/
+}
+
+QWidget#leftWindow 
+{
+    background-color:#293047;
+    /*max-width:200px;
+    min-width:200px;
+    min-height:1250px;
+    max-height:1250px;*/
+}
+
+QWidget#rightWindow 
+{
+    background-color:lightgray;
+    /*max-width:1600px;
+    min-width:1600px;
+    min-height:1250px;
+    max-height:1250px;*/
+}
+
+QWidget#topRightWindow 
+{
+    background-color:#293047;
+    /*max-width:1600px;
+    min-width:1600px;
+    min-height:150px;
+    max-height:150px;*/
+}
+
+QWidget#welcomeSingle 
+{
+    background-color:#FFFFFF;
+    /*max-width:600px;
+    min-width:600px;
+    min-height:400px;
+    max-height:400px;*/
+}
+
+QWidget#profileMode 
+{
+    background-color:#FFFFFF;
+    /*max-width:400px;
+    min-width:400px;
+    min-height:600px;
+    max-height:600px;*/
+}
+
+QWidget#comment 
+{
+    background-color:rgba(176,176,176,0.4);
+    /*min-width:1550px;*/
+}
+
+QWidget#singleComment
+{
+    /*min-width:600px;
+    min-height:100px;*/
+    border-bottom:2px solid rgba(255,123,137,100);
+}
+
+QWidget#singleFriend 
+{
+    /*min-height:100px;*/
+    border-bottom:2px solid #AAAAAA;
+}
+
+QWidget#tag 
+{
+    border:2px solid #AAAAAA;
+    border-radius:5px;
+    background:#FFFFFF;
+    /*min-width:500px;
+    max-width:500px;
+    min-height:150px;
+    max-height:150px;*/
+}
+
+QWidget#message
+{
+    background-color:rgba(176,176,176,0.4);
+    /*max-width:1600px;
+    min-width:1600px;
+    min-height:1112px;
+    max-height:1112px;*/
+}
+
+QWidget#myComment
+{
+    background-color:rgba(176,176,176,0.4);
+    /*min-height:250px;
+    max-height:250px;*/
+}
+
+QWidget#date
+{
+    max-width:125px;
+    max-height:125px;
+    min-width:125px;
+    max-height:125px;
+    background-color:#293047;
+}
+
+QPushButton#logCommit
+{
+    border:0px;
+    border-radius:35px;
+    font:bold 20pt "Myriad Pro Light SemiExt";
+    background-color:#FF7189;
+    color:#FFFFFF;
+    /*max-width:300px;
+    min-width:300px;
+    max-height:75px;
+    min-height:75px;*/
+}
+
+QPushButton#logCommit:hover
+{
+    border:0px;
+    border-radius:35px;
+    font:bold 20pt "Myriad Pro Light SemiExt";
+    background-color:#FFFFFF;
+    color:#FF7189;
+    /*max-width:300px;
+    min-width:300px;
+    max-height:75px;
+    min-height:75px;*/
+}
+
+QPushButton#toLog
+{
+    border:0px;
+    font:13pt "Myriad Pro Light SemiExt";
+    text-decoration:underline;
+    color:#FFFFFF;
+    /*min-width:50px;
+    max-height:30px;
+    min-height:30px;*/
+}
+
+QPushButton#toLog:hover
+{
+    border:0px;
+    font:13pt "Myriad Pro Light SemiExt";
+    color:#FF7189;
+    min-width:50px;
+    max-height:30px;
+    min-height:30px;
+}
+
+QPushButton#leftFunction 
+{
+    border:0px;
+    /*min-width:200px;
+    max-width:200px;
+    min-height:100px;*/
+}
+
+QPushButton#leftFunction:hover
+{
+    background-color:rgba(255,123,137,100);
+    /*min-width:200px;
+    max-width:200px;
+    min-height:100px;*/
+}
+
+QPushButton#func
+{
+    border-style:solid;
+    border-width:2px;
+    border-color:rgba(255,123,137,100);
+    border-radius:15px;
+    font:15pt "Myriad Pro Light SemiExt";
+    color:#FF7189;
+    /*max-width:150px;
+    min-width:150px;
+    max-height:50px;
+    min-height:50px;*/
+}
+
+QPushButton#func:hover
+{
+    border:0px;
+    border-radius:15px;
+    background-color:rgba(255,123,137,100);
+    font:15pt "Myriad Pro Light SemiExt";
+    color:#FFFFFF;
+    /*max-width:200px;
+    min-width:200px;
+    max-height:50px;
+    min-height:50px;*/
+}
+
+QPushButton#detail
+{
+    border-style:solid;
+    border-width:2px;
+    border-color:rgba(255,123,137,100);
+    border-radius:15px;
+    font:bold 15pt "Myriad Pro Light SemiExt";
+    color:#FF7189;
+    /*max-width:200px;
+    min-width:200px;
+    max-height:50px;
+    min-height:50px;*/
+}
+
+QPushButton#detail:hover
+{
+    border-style:solid;
+    border-width:2px;
+    border-color:rgba(255,255,255,100);
+    border-radius:15px;
+    background:url() #FF7189;
+    font:bold 15pt "Myriad Pro Light SemiExt";
+    color:#FFFFFF;
+    /*max-width:200px;
+    min-width:200px;
+    max-height:50px;
+    min-height:50px;*/
+}
+
+QPushButton#like
+{
+    border-style:solid;
+    border-width:2px;
+    border-color:rgba(255,123,137,100);
+    border-radius:15px;
+    font:bold 15pt "Myriad Pro Light SemiExt";
+    color:#FF7189;
+    /*max-width:200px;
+    min-width:200px;
+    max-height:50px;
+    min-height:50px;*/
+}
+
+QPushButton#like:hover
+{
+    border-style:solid;
+    border-width:2px;
+    border-color:rgba(255,255,255,100);
+    border-radius:15px;
+    font:bold 16pt "Myriad Pro Light SemiExt";
+    color:#FFFFFF;
+    /*max-width:200px;
+    min-width:200px;
+    max-height:50px;
+    min-height:50px;*/
+}
+
+QPushButton#username 
+{
+    border:0px;
+    font:15pt "Myriad Pro Light SemiExt";
+    color:#000000;
+    /*max-width:200px;
+    min-width:200px;
+    max-height:30px;
+    min-height:30px;*/
+}
+
+QPushButton#username:hover
+{
+    border:0px;
+    font:15pt "Myriad Pro Light SemiExt";
+    color:#000000;
+    text-decoration:underline;
+    /*max-width:200px;
+    min-width:200px;
+    max-height:30px;
+    min-height:30px;*/
+}
+
+QPushButton#refresh 
+{
+    border:0px;
+    margin-right:20px;
+    /*max-width:60px;
+    min-width:60px;
+    max-height:60px;
+    min-height:60px;*/
+}
+
+QPushButton#rightChoose
+{
+    max-height:0px;
+    max-width:0px;
+    overflow:hidden;
+    font-size:0;
+    line-height:0;
+    border-color:lightgray lightgray lightgray #f0eb7a; 
+    border-style:solid; 
+    border-width:25px;
+}
+
+QPushButton#rightChoose:hover
+{
+    max-height:0px;
+    max-width:0px;
+    overflow:hidden;
+    font-size:0px;
+    line-height:0px;
+    border-color:lightgray lightgray lightgray #f0eb7a; 
+    border-style:solid;
+    border-width:25px;
+    margin:5px;
+}
+
+QPushButton#leftChoose
+{
+    max-height:0px;
+    max-width:0px;
+    overflow:hidden;
+    font-size:0;
+    line-height:0;
+    border-color:lightgray  #f0eb7a lightgray lightgray; 
+    border-style:solid; 
+    border-width:25px;
+}
+
+QPushButton#leftChoose:hover
+{
+    max-height:0px;
+    max-width:0px;
+    overflow:hidden;
+    font-size:0px;
+    line-height:0px;
+    border-color:lightgray #f0eb7a lightgray lightgray ; 
+    border-style:solid;
+    border-width:25px;
+    margin:5px;
+}
+
+QPushButton#friendButton 
+{
+    border:0px;
+    border-radius:15px;
+    font:15pt "Myriad Pro Light SemiExt";
+    color:#293047;
+    /*max-width:200px;
+    min-width:200px;
+    max-height:50px;
+    min-height:50px;*/
+}
+
+QPushButton#friendButton:hover 
+{
+    border:2px solid #FF7189;
+    border-radius:15px;
+    background-color:#FF7189;
+    font:15pt "Myriad Pro Light SemiExt";
+    color:#FFFFFF;
+    /*max-width:200px;
+    min-width:200px;
+    max-height:50px;
+    min-height:50px;*/
+}
+
+QPushButton#tag 
+{
+    /*min-height:50px;
+    max-height:50px;
+    min-width:100px;
+    max-width:100px;*/
+    border:0px;
+    font:15pt "Myriad Pro Light SemiExt";
+}
+
+QPushButton#tag:hover
+{
+    /*min-height:50px;
+    max-height:50px;
+    min-width:100px;
+    max-width:100px;*/
+    text-decoration:underline;
+    font:15pt "Myriad Pro Light SemiExt";
+}
+
+QPushButton#search
+{
+    background-color:#FF7189;
+    border:0px;
+    /*min-width:64px;
+    min-height:64px;*/
+}
+
+QPushButton#toProfile
+{
+    border:0px;
+    font:13pt "Myriad Pro Light SemiExt";
+    text-decoration:underline;
+    color:#000000;
+    /*min-width:200px;
+    max-width:200px;
+    max-height:30px;
+    min-height:30px;*/
+}
+
+QPushButton#toProfile:hover
+{
+    border:0px;
+    font:13pt "Myriad Pro Light SemiExt";
+    color:#FF7189;
+    /*min-width:200px;
+    max-width:200px;
+    max-height:30px;
+    min-height:30px;*/
+}
+
+QPushButton#favorTag
+{
+    border:0px;
+    font:0.1pt "Myriad Pro Light SemiExt";
+    color:#FFFFFF;
+    /*min-width:250px;
+    min-height:250px;
+    background-image:url(:/img/Resources/Dance.jpg);*/
+}
+
+QPushButton#favorTag:hover
+{
+    border:0px;
+    font:bold 15pt "Myriad Pro Light SemiExt";
+    color:#FFFFFF;
+    /*min-width:250px;
+    min-height:250px;*/
+}
+
+QLabel#logLabel 
+{ 
+    font:18pt "Myriad Pro Light SemiExt";
+    color:#AAAAAA;
+    /*max-width:300px;
+    min-width:300px;
+    max-height:50px;
+    min-height:50px;*/
+}
+
+QLabel#toReg 
+{
+    font:13pt "Myriad Pro Light SemiExt";
+    color:#FFFFFF;
+    /*min-width:300px;
+    max-height:100px;
+    min-height:100px;*/
+}
+
+QLabel#welcome 
+{
+    font:bold 20pt "Myriad Pro Light SemiExt";
+    color:#FFFFFF;
+    /*min-width:800px;
+    max-height:100px;
+    min-height:100px;*/
+}
+
+QLabel#welcomeOutline
+{
+    font:bold 20pt "Myriad Pro Light SemiExt";
+    color:#FF7189;
+    text-align:center;
+    /*min-width:250px;
+    max-width:250px;
+    max-height:50px;
+    min-height:50px;*/
+}
+
+QLabel#welcomeDesc
+{
+    font:12pt "Myriad Pro Light SemiExt";
+    color:#000000;
+    /*min-width:250px;
+    max-width:250px;
+    max-height:100px;
+    min-height:100px;*/
+}
+
+QLabel#displayOutline 
+{
+    font:bold 45pt "Myriad Pro Light SemiExt";
+    color:#FF7189;
+    /*min-width:500px;
+    max-width:500px;
+    max-height:60px;
+    min-height:60px;*/
+}
+
+QLabel#displayComment 
+{
+    font:bold 20pt "Myriad Pro Light SemiExt";
+    color:#FF7189;
+    min-width:500px;
+    max-width:500px;
+    max-height:100px;
+    min-height:100px;
+}
+
+QLabel#commentTime 
+{
+    font: 12pt "Myriad Pro Light SemiExt";
+    color: #000000;
+    /*min-width: 300px;
+    max-width: 300px;
+    min-height: 30px;
+    max-height: 30px;*/
+}
+
+QLabel#commentContent 
+{
+    font: 12pt "Myriad Pro Light SemiExt";
+    color: #000000;
+    min-width: 800px;
+    max-width: 800px;
+    min-height: 100px;
+    max-height: 100px;
+}
+
+QLabel#upload 
+{
+    font:bold 15pt "Myriad Pro Light SemiExt";
+    color: #293047;
+    /*min-width: 500px;
+    max-width: 500px;
+    min-height: 100px;
+    max-height: 100px;*/
+}
+
+QLabel#profileTitle
+{
+    font:bold 20pt "Myriad Pro Light SemiExt";
+    color: #293047;
+    /*min-width: 400px;
+    max-width: 400px;
+    min-height: 100px;
+    max-height: 100px;*/
+}
+
+QLabel#notify 
+{
+    font:15pt "Myriad Pro Light SemiExt";
+    color: #AAAAAA;
+    /*min-width:500px;
+    min-height: 100px;
+    max-height: 100px;*/
+}
+
+QLabel#name
+{
+    font:15pt "Myriad Pro Light SemiExt";
+    color: #293047;
+    /*min-width:50px;
+    min-height: 50px;
+    max-height: 50px;*/
+}
+
+QLabel#profileDesc 
+{
+    font:bold 13pt "Myriad Pro Light SemiExt";
+    color: #AAAAAA;
+    text-align:center;
+    /*min-width:400px;
+    min-height: 100px;
+    max-height: 100px;*/
+}
+
+QLabel#uploadInfo
+{
+    font:bold 15pt "Myriad Pro Light SemiExt";
+    color: #293047;
+    min-width: 300px;
+    max-width: 300px;
+    min-height: 100px;
+    max-height: 100px;
+}
+
+QLabel#uploadTitle 
+{
+    font:bold 20pt "Myriad Pro Light SemiExt";
+    color: #293047;
+    /*min-width: 1000px;
+    max-width: 1000px;
+    min-height: 80px;
+    max-height: 80px;*/
+}
+
+QLabel#model
+{
+    font:bold 18pt "Myriad Pro Light SemiExt";
+    color: #FF7189;
+    /*min-width: 300px;
+    max-width: 300px;
+    min-height: 200px;
+    max-height: 200px;*/
+    border:2px solid #f0eb7a;
+}
+
+QLabel#friend 
+{
+    font:bold 15pt "Myriad Pro Light SemiExt";
+    color: #FF7189;
+    /*min-width: 100px;
+    max-width: 100px;
+    min-height: 100px;
+    max-height: 100px;*/
+}
+
+QLabel#friendName
+{
+    font:bold 15pt "Myriad Pro Light SemiExt";
+    color: #000000;
+    /*min-width: 300px;
+    max-width: 300px;
+    min-height: 100px;
+    max-height: 100px;*/
+}
+
+QLabel#search
+{
+    font:bold 20pt "Myriad Pro Light SemiExt";
+    color: #293047;
+}
+
+QLabel#postureDesc
+{
+    font:12pt "Myriad Pro Light SemiExt";
+    color: #333333;
+    word-wrap:hyphenate;
+    /*min-width: 300px;
+    max-width: 300px;
+    min-height: 100px;
+    max-height: 100px;*/
+}
+
+QLabel#message
+{
+    font:15pt "Myriad Pro Light SemiExt";
+    color: #FF7189;
+}
+
+QLabel#words
+{
+    font:12pt "Myriad Pro Light SemiExt";
+    color: #000000;
+}
+
+QLabel#month
+{
+    font:18pt "Myriad Pro Light SemiExt";
+    color: #FF7189;
+}
+
+QLabel#day
+{
+    font:15pt "Myriad Pro Light SemiExt";
+    color: #FFFFFF;
+}
+
+QLabel#error 
+{
+    /*min-width:800px;*/
+    color: #FF7189;
+    font:bold 16pt "Myriad Pro Light SemiExt";
+}
+
+QTextBrowser#desc
+{
+    background-color:lightgray;
+    border:0px;
+    font:15pt "Myriad Pro Light SemiExt";
+    color:#000000;
+    /*min-width:700px;
+    max-width:700px;
+    min-height:100px;
+    max-height:200px;*/
+}
+
+QTextEdit#myComment
+{
+    font:15pt "Myriad Pro Light SemiExt";
+    color:#000000;
+    /*max-height:100px;
+    min-height:100px;*/
+}
+
+QTextEdit#uploadText
+{
+    border:2px solid #AAAAAA;
+    border-radius:5px;
+    font:15pt "Myriad Pro Light SemiExt";
+    color:#293047;
+    /*min-width:1000px;
+    max-width:1000px;
+    max-height:300px;
+    min-height:300px;*/
+}
+
+
+QLineEdit#logLineEdit 
+{
+    background-color:#293047;
+    border:0px;
+    border-bottom:2px solid #808080;
+    font:15pt "Myriad Pro Light SemiExt";
+    color:#FFFFFF;
+    /*min-width:400px;
+    max-width:400px;
+    min-height:60px;
+    max-height:60px;*/
+}
+
+QLineEdit#uploadLine 
+{
+    border:2px solid #AAAAAA;
+    border-radius:5px;
+    font:15pt "Myriad Pro Light SemiExt";
+    color:#293047;
+    /*min-width:1000px;
+    max-width:1000px;
+    min-height:60px;
+    max-height:60px;*/
+}
+
+QLineEdit#searchKey
+{
+    border:2px solid #FF7189;
+    font:15pt "Myriad Pro Light SemiExt";
+    color:#293047;
+    /*min-width:600px;
+    max-width:600px;
+    min-height:60px;
+    max-height:60px;*/
+}
+
+QLineEdit#editProfile
+{
+    border:2px solid #AAAAAA;
+    font:15pt "Myriad Pro Light SemiExt";
+    color:#293047;
+    /*min-width:400px;
+    max-width:400px;
+    min-height:60px;
+    max-height:60px;*/
+}
+
+QGLWidget#display
+{
+    /*min-width:800px;
+    max-width:800px;
+    min-height:800px;
+    max-height:800px;*/
+}
+
+QGLWidget#upload 
+{
+    /*min-width:800px;
+    max-width:800px;
+    min-height:800px;
+    max-height:800px;*/
+}
+
+QSlider#upload::groove:horizontal
+{
+    border:1px solid #999999;
+    border-radius:25px;
+    width:100px;
+    height:50px;/* the groove expands to the size of the slider by default. by giving it a height, it has a fixed size */
+    background:qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0#B1B1B1, stop:1 #c4c4c4);
+    /*margin:2px;*/
+}
+
+QSlider#upload::handle:horizontal 
+{
+    background:qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0#b4b4b4, stop:1 #8f8f8f);
+    /*border:1px solid #5c5c5c;*/
+    border-radius:25px;
+    width:50px;
+    height:50px;
+    margin:-2px;/* handle is placed by default on the contents rect of the groove. Expand outside the groove */
+}
+
+QScrollArea#comment
+{
+    border:0px;
+    /*min-width:1580px;
+    min-height:550px;*/
+}
+
+QMessageBox#msg
+{
+    /*min-width:200px;
+    min-height:100px;*/
+}
